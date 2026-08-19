@@ -1,0 +1,184 @@
+[
+  {
+    "id": "proj-1",
+    "slug": "gan-on-si-power-devices",
+    "name": {
+      "en": "GaN-on-Si Power Devices",
+      "fr": "Dispositifs de puissance GaN sur Si",
+      "ar": "مكونات الطاقة من نيتريد الغاليوم على السيليكون"
+    },
+    "acronym": "GaNPow",
+    "summary": {
+      "en": "Development and modelling of GaN-on-silicon HEMTs for high-voltage power switching.",
+      "fr": "Développement et modélisation de HEMT GaN sur silicium pour la commutation de puissance haute tension.",
+      "ar": "تطوير ونمذجة ترانزستورات HEMT من نيتريد الغاليوم على السيليكون للتبديل عالي الجهد."
+    },
+    "description": "[ADD CONTENT] Full project description: context, motivation, work packages and expected outcomes.",
+    "objectives": [
+      "Reduce buffer trapping effects in GaN-on-Si epitaxial stacks",
+      "Demonstrate breakdown voltage above target specification",
+      "Develop a validated TCAD model of the device stack"
+    ],
+    "startDate": "2023-09",
+    "endDate": "",
+    "status": "active",
+    "researchAreaIds": ["ra-semiconductor-materials", "ra-iii-v-devices", "ra-computational-modelling"],
+    "piId": "p-pi-1",
+    "researcherIds": ["p-res-1", "p-postdoc-1", "p-phd-1"],
+    "collaborators": ["[Add Partner Institution]"],
+    "funding": "[ADD CONTENT] Funding agency and grant reference",
+    "publicationIds": ["pub-1", "pub-2", "pub-4"],
+    "codeIds": ["code-1"],
+    "simulationIds": ["sim-1", "sim-2"],
+    "datasetIds": ["dataset-3"],
+    "documentIds": ["doc-1"],
+    "mediaIds": ["media-1", "media-2"],
+    "externalLinks": [],
+    "visibility": "public"
+  },
+  {
+    "id": "proj-2",
+    "slug": "perovskite-thin-film-modelling",
+    "name": {
+      "en": "Perovskite & Thin-Film Solar Cell Modelling",
+      "fr": "Modélisation de cellules solaires pérovskites et en couches minces",
+      "ar": "نمذجة الخلايا الشمسية البيروفسكايتية والرقيقة"
+    },
+    "acronym": "PeroSim",
+    "summary": {
+      "en": "SCAPS-1D based modelling of loss mechanisms in perovskite and CIGS thin-film solar cells.",
+      "fr": "Modélisation par SCAPS-1D des mécanismes de perte dans les cellules solaires pérovskites et CIGS.",
+      "ar": "نمذجة آليات الفقد في الخلايا الشمسية البيروفسكايتية وCIGS باستخدام SCAPS-1D."
+    },
+    "description": "[ADD CONTENT] Full project description: context, motivation, work packages and expected outcomes.",
+    "objectives": [
+      "Identify dominant recombination losses via simulation",
+      "Propose absorber/buffer layer combinations for higher efficiency",
+      "Validate simulated J-V curves against experimental data"
+    ],
+    "startDate": "2024-01",
+    "endDate": "",
+    "status": "active",
+    "researchAreaIds": ["ra-photovoltaics", "ra-computational-modelling"],
+    "piId": "p-pi-1",
+    "researcherIds": ["p-res-2", "p-phd-2"],
+    "collaborators": [],
+    "funding": "[ADD CONTENT] Funding agency and grant reference",
+    "publicationIds": ["pub-3"],
+    "codeIds": [],
+    "simulationIds": ["sim-3"],
+    "datasetIds": ["dataset-1"],
+    "documentIds": [],
+    "mediaIds": [],
+    "externalLinks": [],
+    "visibility": "public"
+  },
+  {
+    "id": "proj-3",
+    "slug": "defect-engineering-epitaxial-gan",
+    "name": {
+      "en": "Defect Engineering in Epitaxial GaN",
+      "fr": "Ingénierie des défauts dans le GaN épitaxial",
+      "ar": "هندسة العيوب في نيتريد الغاليوم الوبائي"
+    },
+    "acronym": "DefEng-GaN",
+    "summary": {
+      "en": "Correlating growth conditions with dislocation density and electrical performance in GaN layers.",
+      "fr": "Corrélation entre conditions de croissance, densité de dislocations et performance électrique des couches GaN.",
+      "ar": "ربط ظروف النمو بكثافة الانخلاعات والأداء الكهربائي في طبقات نيتريد الغاليوم."
+    },
+    "description": "[ADD CONTENT] Full project description: context, motivation, work packages and expected outcomes.",
+    "objectives": [
+      "Map dislocation density as a function of growth parameters",
+      "Correlate defect density with two-dimensional electron gas mobility"
+    ],
+    "startDate": "2021-02",
+    "endDate": "2023-12",
+    "status": "completed",
+    "researchAreaIds": ["ra-semiconductor-materials"],
+    "piId": "p-pi-1",
+    "researcherIds": ["p-phd-1"],
+    "collaborators": [],
+    "funding": "[ADD CONTENT] Funding agency and grant reference",
+    "publicationIds": ["pub-4"],
+    "codeIds": [],
+    "simulationIds": [],
+    "datasetIds": ["dataset-3"],
+    "documentIds": ["doc-2"],
+    "mediaIds": ["media-1"],
+    "externalLinks": [],
+    "visibility": "public"
+  },
+  {
+    "id": "proj-4",
+    "slug": "integrated-photonic-building-blocks",
+    "name": {
+      "en": "Integrated Photonic Building Blocks",
+      "fr": "Briques élémentaires photoniques intégrées",
+      "ar": "لبنات فوتونية متكاملة"
+    },
+    "acronym": "PhotIC",
+    "summary": {
+      "en": "Design of low-loss waveguide and resonator building blocks on a III-V-on-silicon platform.",
+      "fr": "Conception de guides d'ondes et résonateurs à faibles pertes sur plateforme III-V sur silicium.",
+      "ar": "تصميم موجهات موجية ورنانات منخفضة الفقد على منصة III-V على السيليكون."
+    },
+    "description": "[ADD CONTENT] Full project description: context, motivation, work packages and expected outcomes.",
+    "objectives": [
+      "Design low-loss waveguide cross-sections",
+      "Simulate coupling efficiency between building blocks"
+    ],
+    "startDate": "2026-01",
+    "endDate": "",
+    "status": "planned",
+    "researchAreaIds": ["ra-photonics"],
+    "piId": "p-pi-1",
+    "researcherIds": ["p-collab-1"],
+    "collaborators": ["[Add Partner Institution]"],
+    "funding": "[ADD CONTENT] Funding agency and grant reference",
+    "publicationIds": [],
+    "codeIds": [],
+    "simulationIds": [],
+    "datasetIds": [],
+    "documentIds": [],
+    "mediaIds": ["media-3"],
+    "externalLinks": [],
+    "visibility": "public"
+  },
+  {
+    "id": "proj-5",
+    "slug": "open-source-tcad-toolkit",
+    "name": {
+      "en": "Open-Source TCAD Simulation Toolkit",
+      "fr": "Boîte à outils open-source de simulation TCAD",
+      "ar": "أدوات مفتوحة المصدر لمحاكاة TCAD"
+    },
+    "acronym": "OpenTCAD",
+    "summary": {
+      "en": "A Python toolkit for pre/post-processing TCAD device simulations, with machine-learning-assisted parameter fitting.",
+      "fr": "Une boîte à outils Python pour le pré/post-traitement des simulations TCAD, avec ajustement de paramètres assisté par apprentissage automatique.",
+      "ar": "أدوات بايثون لمعالجة محاكاة TCAD قبل وبعد التنفيذ، مع ضبط للمعاملات بمساعدة تعلم الآلة."
+    },
+    "description": "[ADD CONTENT] Full project description: context, motivation, work packages and expected outcomes.",
+    "objectives": [
+      "Provide reusable Python utilities around common TCAD workflows",
+      "Explore ML-assisted calibration of simulation parameters"
+    ],
+    "startDate": "2024-06",
+    "endDate": "",
+    "status": "active",
+    "researchAreaIds": ["ra-computational-modelling", "ra-ai-ml"],
+    "piId": "p-pi-1",
+    "researcherIds": ["p-msc-1"],
+    "collaborators": [],
+    "funding": "",
+    "publicationIds": ["pub-5"],
+    "codeIds": ["code-4"],
+    "simulationIds": [],
+    "datasetIds": ["dataset-2"],
+    "documentIds": [],
+    "mediaIds": [],
+    "externalLinks": [{ "label": "GitHub organization", "url": "https://github.com/" }],
+    "visibility": "public"
+  }
+]

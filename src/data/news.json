@@ -1,0 +1,74 @@
+[
+  {
+    "id": "news-1",
+    "slug": "new-preprint-ml-tcad-calibration",
+    "title": "New preprint: machine-learning-assisted TCAD calibration",
+    "date": "2025-03-10",
+    "category": "publications",
+    "description": "[ADD CONTENT] Short summary of the new publication and a link to the full entry in the Publications section.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-5",
+    "visibility": "public"
+  },
+  {
+    "id": "news-2",
+    "slug": "group-presents-at-compound-semiconductor-conference",
+    "title": "Group presents at [Add Conference Name] 2025",
+    "date": "2025-09-15",
+    "category": "conferences",
+    "description": "[ADD CONTENT] Summary of the talk/poster presented and key takeaways.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-3",
+    "visibility": "public"
+  },
+  {
+    "id": "news-3",
+    "slug": "best-poster-award",
+    "title": "[Add Award Name] awarded to group member",
+    "date": "2025-11-01",
+    "category": "awards",
+    "description": "[ADD CONTENT] Describe the award, the recipient and the context.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "",
+    "visibility": "public"
+  },
+  {
+    "id": "news-4",
+    "slug": "new-phd-student-joins-group",
+    "title": "New PhD student joins the group",
+    "date": "2025-09-01",
+    "category": "members",
+    "description": "[ADD CONTENT] Welcome message and short introduction of the new member and their research focus.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "",
+    "visibility": "public"
+  },
+  {
+    "id": "news-5",
+    "slug": "new-research-grant-awarded",
+    "title": "New research grant awarded for [Add Project Name]",
+    "date": "2026-01-15",
+    "category": "funding",
+    "description": "[ADD CONTENT] Describe the funding agency, amount and the research it supports.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-4",
+    "visibility": "public"
+  },
+  {
+    "id": "news-6",
+    "slug": "new-collaboration-announced",
+    "title": "New collaboration announced with [Add Partner Institution]",
+    "date": "2026-05-20",
+    "category": "collaborations",
+    "description": "[ADD CONTENT] Describe the scope of the new collaboration.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-4",
+    "visibility": "public"
+  }
+]

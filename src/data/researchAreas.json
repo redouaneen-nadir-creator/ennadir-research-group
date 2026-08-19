@@ -1,0 +1,200 @@
+[
+  {
+    "id": "ra-semiconductor-materials",
+    "slug": "semiconductor-materials",
+    "title": { "en": "Semiconductor Materials", "fr": "Matériaux semi-conducteurs", "ar": "المواد شبه الموصلة" },
+    "summary": {
+      "en": "Growth, doping and characterization of bulk and epitaxial semiconductor materials.",
+      "fr": "Croissance, dopage et caractérisation de matériaux semi-conducteurs massifs et épitaxiaux.",
+      "ar": "نمو وتطعيم وتوصيف المواد شبه الموصلة الكتلية والوبائية."
+    },
+    "description": "[ADD CONTENT] Describe the group's work on semiconductor material growth (e.g. MOCVD, MBE), doping strategies, defect engineering and structural/optical/electrical characterization techniques used to evaluate material quality.",
+    "objectives": [
+      "Understand growth-structure-property relationships in compound semiconductors",
+      "Reduce defect density in epitaxial layers",
+      "Develop reliable doping and passivation strategies"
+    ],
+    "materials": ["GaN", "AlGaN", "InGaN", "GaAs", "InP", "SiC", "Perovskites"],
+    "methods": ["MOCVD growth", "XRD", "PL spectroscopy", "SEM/TEM imaging", "Hall effect measurements"],
+    "devices": ["HEMTs", "LEDs", "Schottky diodes"],
+    "icon": "atom",
+    "publicationIds": ["pub-1", "pub-4"],
+    "projectIds": ["proj-1", "proj-3"],
+    "researcherIds": ["p-pi-1", "p-res-1", "p-phd-1"],
+    "resourceIds": ["sim-2", "doc-1"],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-iii-v-devices",
+    "slug": "iii-v-devices",
+    "title": { "en": "III-V Devices", "fr": "Dispositifs III-V", "ar": "مكونات من الفئة III-V" },
+    "summary": {
+      "en": "Design, fabrication and characterization of III-V compound semiconductor devices.",
+      "fr": "Conception, fabrication et caractérisation de dispositifs à base de semi-conducteurs III-V.",
+      "ar": "تصميم وتصنيع وتوصيف مكونات شبه موصلة من الفئة III-V."
+    },
+    "description": "[ADD CONTENT] Describe device architectures studied (HEMTs, HBTs, laser diodes), fabrication process flow, and key performance metrics targeted (breakdown voltage, mobility, efficiency).",
+    "objectives": [
+      "Improve breakdown voltage and thermal stability of power devices",
+      "Optimize epitaxial layer stacks for high electron mobility",
+      "Characterize device reliability under stress"
+    ],
+    "materials": ["GaN", "AlGaN/GaN", "InP", "GaAs"],
+    "methods": ["Device fabrication", "I-V/C-V characterization", "TLM measurements"],
+    "devices": ["Power HEMTs", "RF transistors", "Laser diodes"],
+    "icon": "chip",
+    "publicationIds": ["pub-2"],
+    "projectIds": ["proj-1"],
+    "researcherIds": ["p-pi-1", "p-postdoc-1"],
+    "resourceIds": ["sim-1", "code-1"],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-photovoltaics",
+    "slug": "photovoltaics",
+    "title": { "en": "Photovoltaics", "fr": "Photovoltaïque", "ar": "الطاقة الكهروضوئية" },
+    "summary": {
+      "en": "Modelling and characterization of thin-film and next-generation solar cells.",
+      "fr": "Modélisation et caractérisation de cellules solaires en couches minces et de nouvelle génération.",
+      "ar": "نمذجة وتوصيف الخلايا الشمسية الرقيقة ومن الجيل الجديد."
+    },
+    "description": "[ADD CONTENT] Describe solar cell architectures under study (thin-film, tandem, perovskite), simulation tools used (SCAPS-1D) and efficiency/stability targets.",
+    "objectives": [
+      "Increase power conversion efficiency of thin-film absorbers",
+      "Model loss mechanisms in multi-junction cells",
+      "Improve long-term stability under illumination"
+    ],
+    "materials": ["CIGS", "CdTe", "Perovskites", "Silicon"],
+    "methods": ["SCAPS-1D simulation", "J-V characterization", "EQE measurement"],
+    "devices": ["Thin-film solar cells", "Tandem cells"],
+    "icon": "solar",
+    "publicationIds": ["pub-3"],
+    "projectIds": ["proj-2"],
+    "researcherIds": ["p-res-2", "p-phd-2"],
+    "resourceIds": ["sim-3", "dataset-1"],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-photonics",
+    "slug": "photonics",
+    "title": { "en": "Photonics", "fr": "Photonique", "ar": "الفوتونيات" },
+    "summary": {
+      "en": "Integrated photonic devices and light-matter interaction in semiconductor nanostructures.",
+      "fr": "Dispositifs photoniques intégrés et interaction lumière-matière dans les nanostructures semi-conductrices.",
+      "ar": "المكونات الفوتونية المتكاملة وتفاعل الضوء مع المادة في البنى النانوية شبه الموصلة."
+    },
+    "description": "[ADD CONTENT] Describe photonic device work (waveguides, resonators, LEDs, lasers) and optical characterization capabilities.",
+    "objectives": [
+      "Design low-loss waveguide structures",
+      "Study light emission efficiency in nanostructured materials",
+      "Develop integrated photonic building blocks"
+    ],
+    "materials": ["InGaN/GaN quantum wells", "Silicon photonics", "III-V on silicon"],
+    "methods": ["FDTD simulation", "Photoluminescence", "Time-resolved spectroscopy"],
+    "devices": ["LEDs", "Waveguides", "Micro-resonators"],
+    "icon": "photon",
+    "publicationIds": [],
+    "projectIds": ["proj-4"],
+    "researcherIds": ["p-res-1"],
+    "resourceIds": ["media-3"],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-quantum-devices",
+    "slug": "quantum-devices",
+    "title": { "en": "Quantum Devices", "fr": "Dispositifs quantiques", "ar": "المكونات الكمومية" },
+    "summary": {
+      "en": "Quantum-confined structures and devices for sensing and information applications.",
+      "fr": "Structures et dispositifs à confinement quantique pour la détection et l'information quantique.",
+      "ar": "بنى ومكونات محصورة كموميًا لتطبيقات الاستشعار ومعالجة المعلومات."
+    },
+    "description": "[ADD CONTENT] Describe quantum well/dot structures studied and target applications (single-photon sources, sensors, qubits).",
+    "objectives": [
+      "Engineer quantum-confined structures with tailored emission",
+      "Explore device concepts for quantum sensing"
+    ],
+    "materials": ["Quantum dots", "Quantum wells", "2D materials"],
+    "methods": ["Low-temperature PL", "Electron microscopy"],
+    "devices": ["Single-photon sources", "Quantum sensors"],
+    "icon": "quantum",
+    "publicationIds": [],
+    "projectIds": [],
+    "researcherIds": ["p-pi-1"],
+    "resourceIds": [],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-nanotechnology",
+    "slug": "nanotechnology",
+    "title": { "en": "Nanotechnology", "fr": "Nanotechnologie", "ar": "التقنية النانوية" },
+    "summary": {
+      "en": "Nanostructuring and nanoscale characterization of functional materials.",
+      "fr": "Nanostructuration et caractérisation à l'échelle nanométrique de matériaux fonctionnels.",
+      "ar": "الهندسة النانوية والتوصيف على المقياس النانوي للمواد الوظيفية."
+    },
+    "description": "[ADD CONTENT] Describe nanofabrication capabilities (lithography, etching) and nanoscale characterization tools (AFM, TEM).",
+    "objectives": [
+      "Develop reproducible nanopatterning processes",
+      "Correlate nanoscale structure with device performance"
+    ],
+    "materials": ["Nanowires", "2D materials", "Nanoparticles"],
+    "methods": ["E-beam lithography", "AFM", "TEM"],
+    "devices": ["Nanowire transistors", "Nanosensors"],
+    "icon": "nano",
+    "publicationIds": [],
+    "projectIds": [],
+    "researcherIds": ["p-eng-1"],
+    "resourceIds": ["media-5"],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-computational-modelling",
+    "slug": "computational-modelling",
+    "title": { "en": "Computational Modelling", "fr": "Modélisation numérique", "ar": "النمذجة الحاسوبية" },
+    "summary": {
+      "en": "TCAD, FEM and Monte Carlo modelling of semiconductor materials and devices.",
+      "fr": "Modélisation TCAD, EF et Monte Carlo des matériaux et dispositifs semi-conducteurs.",
+      "ar": "نمذجة TCAD والعناصر المحدودة ومونت كارلو للمواد والمكونات شبه الموصلة."
+    },
+    "description": "[ADD CONTENT] Describe modelling tools used (Silvaco ATLAS, COMSOL, custom Python/MATLAB codes) and typical simulation workflows.",
+    "objectives": [
+      "Build predictive device-level models",
+      "Validate simulations against experimental data",
+      "Share reproducible simulation workflows with the community"
+    ],
+    "materials": ["GaN", "Si", "Perovskites"],
+    "methods": ["TCAD simulation", "FEM", "Monte Carlo transport modelling"],
+    "devices": ["HEMTs", "Solar cells", "Sensors"],
+    "icon": "compute",
+    "publicationIds": ["pub-4", "pub-5"],
+    "projectIds": ["proj-1", "proj-2"],
+    "researcherIds": ["p-pi-1", "p-postdoc-1", "p-msc-1"],
+    "resourceIds": ["sim-1", "sim-2", "sim-3", "code-1"],
+    "visibility": "public"
+  },
+  {
+    "id": "ra-ai-ml",
+    "slug": "ai-machine-learning",
+    "title": { "en": "AI / Machine Learning", "fr": "IA / Apprentissage automatique", "ar": "الذكاء الاصطناعي وتعلم الآلة" },
+    "summary": {
+      "en": "Data-driven and machine-learning methods applied to materials and device design.",
+      "fr": "Méthodes de science des données et d'apprentissage automatique appliquées aux matériaux et à la conception de dispositifs.",
+      "ar": "منهجيات علم البيانات وتعلم الآلة المطبقة على تصميم المواد والمكونات."
+    },
+    "description": "[ADD CONTENT] Describe ML approaches used (surrogate modelling, inverse design, defect classification) and datasets involved.",
+    "objectives": [
+      "Accelerate materials screening with surrogate models",
+      "Apply ML to defect detection in characterization images",
+      "Combine physics-based and data-driven models"
+    ],
+    "materials": ["Simulation datasets", "Characterization images"],
+    "methods": ["Regression models", "Convolutional neural networks", "Bayesian optimization"],
+    "devices": [],
+    "icon": "ai",
+    "publicationIds": ["pub-5"],
+    "projectIds": [],
+    "researcherIds": ["p-msc-1"],
+    "resourceIds": ["code-4", "dataset-2"],
+    "visibility": "public"
+  }
+]

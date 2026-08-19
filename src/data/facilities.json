@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fac-1",
+    "slug": "epitaxial-growth-laboratory",
+    "title": {
+      "en": "Epitaxial Growth Laboratory",
+      "fr": "Laboratoire de croissance épitaxiale",
+      "ar": "مختبر النمو الوبائي"
+    },
+    "description": "[ADD CONTENT] Describe the growth reactor(s) available, capabilities and typical sample throughput.",
+    "image": "",
+    "equipment": ["MOCVD reactor", "Substrate preparation line"],
+    "visibility": "public"
+  },
+  {
+    "id": "fac-2",
+    "slug": "materials-characterization-lab",
+    "title": {
+      "en": "Materials Characterization Laboratory",
+      "fr": "Laboratoire de caractérisation des matériaux",
+      "ar": "مختبر توصيف المواد"
+    },
+    "description": "[ADD CONTENT] Describe available structural, optical and electrical characterization equipment.",
+    "image": "",
+    "equipment": ["XRD diffractometer", "PL/Raman setup", "SEM"],
+    "visibility": "public"
+  },
+  {
+    "id": "fac-3",
+    "slug": "device-fabrication-cleanroom",
+    "title": {
+      "en": "Device Fabrication Cleanroom",
+      "fr": "Salle blanche de fabrication de dispositifs",
+      "ar": "غرفة نظيفة لتصنيع المكونات"
+    },
+    "description": "[ADD CONTENT] Describe cleanroom class, lithography and etching tools available.",
+    "image": "",
+    "equipment": ["E-beam lithography", "Dry etching", "Metal deposition"],
+    "visibility": "public"
+  },
+  {
+    "id": "fac-4",
+    "slug": "high-performance-computing-cluster",
+    "title": {
+      "en": "High-Performance Computing Cluster",
+      "fr": "Grappe de calcul haute performance",
+      "ar": "عنقود الحوسبة عالية الأداء"
+    },
+    "description": "[ADD CONTENT] Describe compute resources available for TCAD, FEM and machine-learning workloads.",
+    "image": "",
+    "equipment": ["TCAD simulation nodes", "GPU nodes for ML workloads"],
+    "visibility": "public"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "event-1",
+    "slug": "seminar-perovskite-modelling",
+    "title": "Seminar: Recent Advances in Perovskite Solar Cell Modelling",
+    "date": "2026-02-10",
+    "endDate": "",
+    "category": "seminars",
+    "location": "[ADD CONTENT] Room / building, host institution",
+    "description": "[ADD CONTENT] Speaker, abstract and seminar details.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-2",
+    "visibility": "public"
+  },
+  {
+    "id": "event-2",
+    "slug": "workshop-tcad-simulation",
+    "title": "Workshop: Hands-On TCAD Device Simulation",
+    "date": "2026-10-05",
+    "endDate": "2026-10-06",
+    "category": "workshops",
+    "location": "[ADD CONTENT] Room / building, host institution",
+    "description": "[ADD CONTENT] Workshop programme, prerequisites and registration details.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-1",
+    "visibility": "public"
+  },
+  {
+    "id": "event-3",
+    "slug": "international-compound-semiconductor-conference-2026",
+    "title": "[Add Conference Name] 2026",
+    "date": "2026-11-12",
+    "endDate": "2026-11-15",
+    "category": "conferences",
+    "location": "[ADD CONTENT] City, country",
+    "description": "[ADD CONTENT] Details of group participation — talks, posters, sessions attended.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "",
+    "visibility": "public"
+  },
+  {
+    "id": "event-4",
+    "slug": "quarterly-group-meeting-q2-2026",
+    "title": "Quarterly Group Meeting — Q2 2026",
+    "date": "2026-06-01",
+    "endDate": "",
+    "category": "meetings",
+    "location": "[ADD CONTENT] Room / building, host institution",
+    "description": "[ADD CONTENT] Meeting agenda and outcomes.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "",
+    "visibility": "public"
+  },
+  {
+    "id": "event-5",
+    "slug": "grant-proposal-submission-deadline",
+    "title": "Internal Deadline: Grant Proposal Submission",
+    "date": "2026-09-30",
+    "endDate": "",
+    "category": "deadlines",
+    "location": "",
+    "description": "[ADD CONTENT] Details of the funding call and internal submission requirements.",
+    "image": "",
+    "externalUrl": "",
+    "projectId": "proj-4",
+    "visibility": "public"
+  }
+]
