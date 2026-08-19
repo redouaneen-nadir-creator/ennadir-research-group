@@ -1,4 +1,4 @@
-# En-Nadir Research Group — Website
+# Dr. En-Nadir's Group — Website
 
 A modern, multilingual research-group website: research areas, projects,
 publications, people, and a resources hub (simulations, code, media,

@@ -8,7 +8,7 @@ export default function DatasetCard({ item }: { item: DatasetItem }) {
   const meta = [item.format, item.size].filter(Boolean).join(' · ')
 
   return (
-    <div className="flex flex-col gap-2 rounded-2xl border border-ink-900/8 bg-white p-6">
+    <div className="flex flex-col gap-2 rounded border border-ink-900/15 bg-white p-6">
       <Badge tone="brand">{item.category}</Badge>
       <h3 className="text-base font-semibold leading-snug text-ink-900">{item.title}</h3>
       <p className="text-sm leading-relaxed text-ink-700/70">{item.description}</p>

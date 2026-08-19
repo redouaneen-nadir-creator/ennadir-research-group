@@ -8,7 +8,7 @@ export default function DocumentCard({ item }: { item: DocumentItem }) {
   const { t, locale } = useLanguage()
 
   return (
-    <div className="flex flex-col gap-2 rounded-2xl border border-ink-900/8 bg-white p-6">
+    <div className="flex flex-col gap-2 rounded border border-ink-900/15 bg-white p-6">
       <div className="flex flex-wrap items-center gap-2">
         <Badge tone="brand">{item.category}</Badge>
         <span className="inline-flex items-center gap-1 text-xs text-ink-700/55">

@@ -1,5 +1,5 @@
 const en: Record<string, string> = {
-  'meta.siteName': 'En-Nadir Research Group',
+  'meta.siteName': "Dr. En-Nadir's Group",
   'meta.tagline': 'Semiconductor Materials · Photonics · Computational Modelling',
 
   // Navigation
@@ -65,7 +65,7 @@ const en: Record<string, string> = {
 
   // Home
   'home.heroKicker': 'Research Group',
-  'home.heroTitle': 'En-Nadir Research Group',
+  'home.heroTitle': "Dr. En-Nadir's Group",
   'home.heroSubtitle':
     'We investigate semiconductor materials, III-V devices, photovoltaics and photonics, combining experiment and computational modelling to advance next-generation electronic and optoelectronic technologies.',
   'home.heroCtaResearch': 'Research',
@@ -229,7 +229,7 @@ const en: Record<string, string> = {
   // About
   'about.title': 'About the Group',
   'about.intro':
-    'The En-Nadir Research Group works on semiconductor materials and devices, bridging experimental characterization and computational modelling.',
+    "Dr. En-Nadir's Group works on semiconductor materials and devices, bridging experimental characterization and computational modelling.",
   'about.missionTitle': 'Mission',
   'about.mission':
     '[ADD CONTENT] Describe the group mission, scientific vision and long-term goals here.',

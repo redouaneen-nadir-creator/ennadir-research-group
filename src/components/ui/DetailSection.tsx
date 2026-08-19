@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 
 export function DetailSection({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <section className="border-t border-ink-900/8 py-8 first:border-t-0 first:pt-0">
+    <section className="border-t border-ink-900/15 py-8 first:border-t-0 first:pt-0">
       <h2 className="mb-4 text-lg font-semibold text-ink-900">{title}</h2>
       {children}
     </section>

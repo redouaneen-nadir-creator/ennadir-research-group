@@ -20,7 +20,7 @@ export default function FilterSelect({
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="min-w-[9rem] rounded-lg border border-ink-900/10 bg-white px-3 py-2 text-sm text-ink-900 focus:border-brand-400"
+        className="min-w-[9rem] rounded border border-ink-900/15 bg-white px-3 py-2 text-sm text-ink-900 focus:border-brand-400"
       >
         {options.map((opt) => (
           <option key={opt.value} value={opt.value}>

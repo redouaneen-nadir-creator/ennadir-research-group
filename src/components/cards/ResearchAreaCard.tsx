@@ -9,9 +9,9 @@ export default function ResearchAreaCard({ area }: { area: ResearchArea }) {
   return (
     <Link
       to={`/research/${area.slug}`}
-      className="group flex flex-col rounded-2xl border border-ink-900/8 bg-white p-6 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-900/5"
+      className="group flex flex-col rounded border border-ink-900/15 bg-white p-6 transition-colors hover:border-brand-400"
     >
-      <span className="mb-4 grid h-11 w-11 place-items-center rounded-xl bg-brand-50 text-brand-600">
+      <span className="mb-4 grid h-11 w-11 place-items-center rounded-full border border-brand-200 bg-brand-50 text-brand-700">
         <AreaIcon name={area.icon} className="h-5.5 w-5.5" />
       </span>
       <h3 className="text-base font-semibold text-ink-900">{lt(area.title)}</h3>

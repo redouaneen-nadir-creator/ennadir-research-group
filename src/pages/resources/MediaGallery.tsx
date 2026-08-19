@@ -103,7 +103,7 @@ export default function MediaGallery() {
           onClick={() => setActive(null)}
         >
           <div
-            className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded-2xl bg-white"
+            className="max-h-[90vh] w-full max-w-3xl overflow-y-auto rounded bg-white"
             onClick={(e) => e.stopPropagation()}
           >
             {active.imageUrl ? (

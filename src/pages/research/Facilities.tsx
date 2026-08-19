@@ -27,7 +27,7 @@ export default function Facilities() {
           {facilities.map((facility) => (
             <div
               key={facility.id}
-              className="overflow-hidden rounded-2xl border border-ink-900/8 bg-white"
+              className="overflow-hidden rounded border border-ink-900/15 bg-white"
             >
               <PlaceholderImage label={lt(facility.title)} className="h-40 w-full" />
               <div className="p-6">

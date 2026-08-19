@@ -9,7 +9,7 @@ export interface RelatedLinkItem {
 
 export default function RelatedLinks({ items }: { items: RelatedLinkItem[] }) {
   return (
-    <ul className="divide-y divide-ink-900/6 overflow-hidden rounded-xl border border-ink-900/8">
+    <ul className="divide-y divide-ink-900/6 overflow-hidden rounded border border-ink-900/15">
       {items.map((item, index) => (
         // `to` alone isn't always unique: several resource kinds (media,
         // documents, datasets) link to a shared index page rather than a

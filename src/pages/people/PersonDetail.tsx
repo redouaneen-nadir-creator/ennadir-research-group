@@ -34,7 +34,7 @@ export default function PersonDetail() {
     <>
       <Seo title={person.name} description={lt(person.position)} />
 
-      <header className="border-b border-ink-900/5 bg-gradient-to-b from-ink-950 to-ink-900 text-white">
+      <header className="border-b-2 border-accent-500/70 bg-ink-950 text-white">
         <Container className="flex flex-col items-center gap-5 py-14 text-center sm:flex-row sm:items-center sm:text-start">
           <Avatar name={person.name} className="h-24 w-24 shrink-0 text-2xl" />
           <div>

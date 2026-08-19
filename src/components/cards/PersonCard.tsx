@@ -9,7 +9,7 @@ export default function PersonCard({ person }: { person: Person }) {
   return (
     <Link
       to={`/people/${person.slug}`}
-      className="group flex flex-col items-center rounded-2xl border border-ink-900/8 bg-white p-6 text-center transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-900/5"
+      className="group flex flex-col items-center rounded border border-ink-900/15 bg-white p-6 text-center transition-colors hover:border-brand-400"
     >
       <Avatar name={person.name} className="h-16 w-16 text-lg" />
       <h3 className="mt-4 text-sm font-semibold text-ink-900 group-hover:text-brand-700">{person.name}</h3>

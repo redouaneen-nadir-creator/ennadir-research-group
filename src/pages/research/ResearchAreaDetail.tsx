@@ -27,7 +27,7 @@ export default function ResearchAreaDetail() {
     <>
       <Seo title={lt(area.title)} description={lt(area.summary)} />
       <PageHeader kicker={t('nav.research')} title={lt(area.title)} subtitle={lt(area.summary)}>
-        <span className="inline-grid h-12 w-12 place-items-center rounded-xl bg-white/10 text-white">
+        <span className="inline-grid h-12 w-12 place-items-center rounded-full border border-accent-400/40 bg-white/10 text-accent-400">
           <AreaIcon name={area.icon} className="h-6 w-6" />
         </span>
       </PageHeader>

@@ -21,7 +21,7 @@ export default function SearchInput({
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder={placeholder}
-          className="w-full rounded-lg border border-ink-900/10 bg-white py-2 ps-9 pe-3 text-sm text-ink-900 placeholder:text-ink-700/40 focus:border-brand-400"
+          className="w-full rounded border border-ink-900/15 bg-white py-2 ps-9 pe-3 text-sm text-ink-900 placeholder:text-ink-700/40 focus:border-brand-400"
         />
       </span>
     </label>

@@ -23,18 +23,11 @@ export default function Home() {
       <Seo title="" />
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-ink-950 via-ink-900 to-ink-950 text-white">
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0 opacity-[0.15]"
-          style={{
-            backgroundImage:
-              'radial-gradient(circle at 20% 20%, #2680f5 0, transparent 45%), radial-gradient(circle at 85% 15%, #2dd4bf 0, transparent 40%)',
-          }}
-        />
+      <section className="relative border-b-2 border-accent-500/70 bg-ink-950 text-white">
         <Container className="relative py-20 sm:py-28">
           <div className="max-w-2xl animate-fadeUp">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-brand-300">
+            <p className="mb-4 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-accent-400">
+              <span className="h-px w-8 bg-accent-500/70" />
               {t('home.heroKicker')}
             </p>
             <h1 className="font-serif text-4xl font-semibold leading-[1.1] sm:text-5xl">{t('home.heroTitle')}</h1>
@@ -42,20 +35,20 @@ export default function Home() {
             <div className="mt-9 flex flex-wrap gap-3">
               <Link
                 to="/research"
-                className="inline-flex items-center gap-2 rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-400"
+                className="inline-flex items-center gap-2 rounded-sm bg-brand-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-500"
               >
                 {t('home.heroCtaResearch')}
                 <ArrowRightIcon className="h-4 w-4 rtl:rotate-180" />
               </Link>
               <Link
                 to="/projects"
-                className="inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-3 text-sm font-semibold text-white ring-1 ring-inset ring-white/20 transition-colors hover:bg-white/15"
+                className="inline-flex items-center gap-2 rounded-sm border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-white/50 hover:bg-white/5"
               >
                 {t('home.heroCtaProjects')}
               </Link>
               <Link
                 to="/publications"
-                className="inline-flex items-center gap-2 rounded-full bg-white/10 px-5 py-3 text-sm font-semibold text-white ring-1 ring-inset ring-white/20 transition-colors hover:bg-white/15"
+                className="inline-flex items-center gap-2 rounded-sm border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-white/50 hover:bg-white/5"
               >
                 {t('home.heroCtaPublications')}
               </Link>
@@ -174,7 +167,7 @@ export default function Home() {
               <Link
                 key={item.to}
                 to={item.to}
-                className="group flex items-center justify-between rounded-2xl border border-ink-900/8 bg-white p-6 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-900/5"
+                className="group flex items-center justify-between rounded border border-ink-900/15 bg-white p-6 transition-colors hover:border-brand-400"
               >
                 <div>
                   <p className="text-sm font-semibold text-ink-900 group-hover:text-brand-700">{item.label}</p>
@@ -188,7 +181,7 @@ export default function Home() {
       </section>
 
       {/* Contact / Collaboration */}
-      <section className="border-t border-ink-900/8 bg-gradient-to-br from-brand-900 to-ink-950 py-16 text-white sm:py-20">
+      <section className="border-t-2 border-accent-500/70 bg-ink-950 py-16 text-white sm:py-20">
         <Container className="text-center">
           <h2 className="font-serif text-2xl font-semibold sm:text-3xl">{t('home.contactTitle')}</h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-white/70 sm:text-base">
@@ -196,7 +189,7 @@ export default function Home() {
           </p>
           <Link
             to="/contact"
-            className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink-900 transition-transform hover:scale-[1.02]"
+            className="mt-8 inline-flex items-center gap-2 rounded-sm bg-white px-6 py-3 text-sm font-semibold text-ink-900 transition-colors hover:bg-accent-400"
           >
             {t('home.contactCta')}
             <ArrowRightIcon className="h-4 w-4 rtl:rotate-180" />

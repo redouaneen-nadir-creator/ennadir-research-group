@@ -90,7 +90,7 @@ export default function Search() {
                       {items.length}
                     </span>
                   </h2>
-                  <ul className="divide-y divide-ink-900/6 overflow-hidden rounded-xl border border-ink-900/8 bg-white">
+                  <ul className="divide-y divide-ink-900/6 overflow-hidden rounded border border-ink-900/15 bg-white">
                     {items.map((item) => (
                       <li key={`${item.kind}-${item.id}`}>
                         <Link to={item.to} className="group flex items-center justify-between gap-4 px-5 py-4 hover:bg-brand-50/60">

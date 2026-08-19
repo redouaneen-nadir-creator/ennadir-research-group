@@ -13,13 +13,13 @@ export default function FilterBar({
   const { t } = useLanguage()
 
   return (
-    <div className="flex flex-wrap items-end gap-4 rounded-2xl border border-ink-900/8 bg-ink-900/[0.02] p-4 sm:p-5">
+    <div className="flex flex-wrap items-end gap-4 rounded border border-ink-900/15 bg-ink-900/[0.02] p-4 sm:p-5">
       {children}
       {active && (
         <button
           type="button"
           onClick={onClear}
-          className="mb-0.5 rounded-lg px-3 py-2 text-xs font-medium text-brand-600 hover:bg-brand-50"
+          className="mb-0.5 rounded px-3 py-2 text-xs font-medium text-brand-600 hover:bg-brand-50"
         >
           {t('common.clearFilters')}
         </button>

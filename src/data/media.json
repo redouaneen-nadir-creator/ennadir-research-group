@@ -11,7 +11,7 @@
     "publicationIds": ["pub-1"],
     "imageUrl": "",
     "tags": ["GaN", "cross-section", "epitaxy"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   },
   {
@@ -26,7 +26,7 @@
     "publicationIds": ["pub-2"],
     "imageUrl": "",
     "tags": ["HEMT", "device", "fabrication"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   },
   {
@@ -41,7 +41,7 @@
     "publicationIds": [],
     "imageUrl": "",
     "tags": ["photonics", "waveguide", "schematic"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   },
   {
@@ -56,7 +56,7 @@
     "publicationIds": ["pub-4"],
     "imageUrl": "",
     "tags": ["XRD", "GaN", "crystal quality"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   },
   {
@@ -71,7 +71,7 @@
     "publicationIds": [],
     "imageUrl": "",
     "tags": ["AFM", "nanowires", "topography"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   },
   {
@@ -86,7 +86,7 @@
     "publicationIds": [],
     "imageUrl": "",
     "tags": ["photoluminescence", "quantum wells"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   },
   {
@@ -101,7 +101,7 @@
     "publicationIds": ["pub-3"],
     "imageUrl": "",
     "tags": ["perovskite", "graphical abstract"],
-    "copyright": "© En-Nadir Research Group",
+    "copyright": "© Dr. En-Nadir's Group",
     "visibility": "public"
   }
 ]

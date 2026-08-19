@@ -12,7 +12,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       to={`/projects/${project.slug}`}
-      className="group flex flex-col rounded-2xl border border-ink-900/8 bg-white p-6 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-900/5"
+      className="group flex flex-col rounded border border-ink-900/15 bg-white p-6 transition-colors hover:border-brand-400"
     >
       <div className="mb-3 flex items-center justify-between gap-2">
         <StatusBadge status={project.status} label={t(`common.${project.status}`)} />

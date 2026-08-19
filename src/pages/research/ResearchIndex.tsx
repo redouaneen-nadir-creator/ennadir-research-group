@@ -19,7 +19,7 @@ export default function ResearchIndex() {
         <div className="mb-10 flex flex-wrap items-center gap-4">
           <Link
             to="/research/facilities"
-            className="inline-flex items-center gap-2 rounded-full border border-ink-900/10 px-4 py-2 text-sm font-medium text-ink-800 hover:border-brand-300 hover:text-brand-700"
+            className="inline-flex items-center gap-2 rounded-sm border border-ink-900/15 px-4 py-2 text-sm font-medium text-ink-800 hover:border-brand-400 hover:text-brand-700"
           >
             {t('research.facilitiesTitle')}
             <ArrowRightIcon className="h-4 w-4 rtl:rotate-180" />

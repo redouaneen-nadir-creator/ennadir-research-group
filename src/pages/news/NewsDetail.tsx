@@ -42,7 +42,7 @@ export default function NewsDetail() {
         )}
 
         {project && (
-          <div className="mt-10 rounded-xl border border-ink-900/8 bg-ink-900/[0.02] p-4">
+          <div className="mt-10 rounded border border-ink-900/15 bg-ink-900/[0.02] p-4">
             <p className="text-xs font-medium uppercase tracking-wide text-ink-700/50">{t('common.project')}</p>
             <Link to={`/projects/${project.slug}`} className="text-sm font-medium text-brand-600 hover:underline">
               {lt(project.name)}

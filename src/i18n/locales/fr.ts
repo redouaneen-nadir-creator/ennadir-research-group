@@ -1,5 +1,5 @@
 const fr: Record<string, string> = {
-  'meta.siteName': 'Groupe de recherche En-Nadir',
+  'meta.siteName': 'Groupe du Dr En-Nadir',
   'meta.tagline': 'Matériaux semi-conducteurs · Photonique · Modélisation numérique',
 
   // Navigation
@@ -65,7 +65,7 @@ const fr: Record<string, string> = {
 
   // Home
   'home.heroKicker': 'Groupe de recherche',
-  'home.heroTitle': 'Groupe de recherche En-Nadir',
+  'home.heroTitle': 'Groupe du Dr En-Nadir',
   'home.heroSubtitle':
     'Nous étudions les matériaux semi-conducteurs, les dispositifs III-V, le photovoltaïque et la photonique, en combinant expérimentation et modélisation numérique pour faire progresser les technologies électroniques et optoélectroniques de nouvelle génération.',
   'home.heroCtaResearch': 'Recherche',
@@ -230,7 +230,7 @@ const fr: Record<string, string> = {
   // About
   'about.title': 'À propos du groupe',
   'about.intro':
-    'Le groupe de recherche En-Nadir travaille sur les matériaux et dispositifs semi-conducteurs, à l’interface entre caractérisation expérimentale et modélisation numérique.',
+    'Le groupe du Dr En-Nadir travaille sur les matériaux et dispositifs semi-conducteurs, à l’interface entre caractérisation expérimentale et modélisation numérique.',
   'about.missionTitle': 'Mission',
   'about.mission':
     '[À AJOUTER] Décrivez ici la mission du groupe, sa vision scientifique et ses objectifs à long terme.',

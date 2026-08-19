@@ -15,7 +15,7 @@ export default function NotFound() {
         <p className="mt-2 max-w-md text-sm text-ink-700/70">{t('notFound.subtitle')}</p>
         <Link
           to="/"
-          className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-700"
+          className="mt-8 inline-flex items-center gap-2 rounded-sm bg-brand-600 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-700"
         >
           {t('notFound.cta')}
         </Link>

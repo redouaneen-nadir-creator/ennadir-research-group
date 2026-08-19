@@ -28,7 +28,7 @@ export default function ResourcesIndex() {
             <Link
               key={card.to}
               to={card.to}
-              className="group flex flex-col justify-between rounded-2xl border border-ink-900/8 bg-white p-7 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-900/5"
+              className="group flex flex-col justify-between rounded border border-ink-900/15 bg-white p-7 transition-colors hover:border-brand-400"
             >
               <div>
                 <h3 className="text-lg font-semibold text-ink-900 group-hover:text-brand-700">{card.label}</h3>
