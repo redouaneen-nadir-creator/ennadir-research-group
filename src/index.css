@@ -25,7 +25,10 @@
     @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-white;
   }
 
-  h1,
+  h1 {
+    @apply font-display tracking-tight;
+  }
+
   h2,
   h3,
   h4 {
@@ -43,6 +46,37 @@
   }
   .link-underline:hover {
     background-size: 100% 1.5px;
+  }
+
+  /* Gilded text used sparingly on hero/feature headings — a flat gold
+     fallback color keeps text legible if background-clip isn't supported. */
+  .text-gilded {
+    color: theme('colors.accent.500');
+    background-image: linear-gradient(
+      100deg,
+      theme('colors.accent.300') 0%,
+      theme('colors.accent.500') 45%,
+      theme('colors.accent.200') 60%,
+      theme('colors.accent.500') 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Small ornamental rule — a thin-thick-thin gold divider with a
+     center diamond, evoking a letterpress title-page flourish. */
+  .rule-ornate {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .rule-ornate::before,
+  .rule-ornate::after {
+    content: '';
+    height: 1px;
+    flex: 1 1 auto;
+    background: linear-gradient(90deg, transparent, theme('colors.accent.500') 50%, transparent);
   }
 }
 

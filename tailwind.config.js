@@ -37,14 +37,23 @@ export default {
           950: '#26060c',
         },
         accent: {
+          200: '#f0dfb8',
+          300: '#e6c88e',
           400: '#d7b571',
           500: '#bd934a',
           600: '#9a7638',
+          700: '#785a2a',
+          800: '#5b431f',
+        },
+        jewel: {
+          teal: '#0f5c56',
+          emerald: '#1f5c3f',
         },
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         serif: ['"Source Serif 4"', 'ui-serif', 'Georgia', 'serif'],
+        display: ['"Playfair Display"', '"Source Serif 4"', 'ui-serif', 'Georgia', 'serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
       maxWidth: {
